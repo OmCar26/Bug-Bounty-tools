@@ -159,7 +159,7 @@
 
 ## Exploitation
 
-Lorem ipsum dolor sit amet
+
 
 ### Command Injection
 
