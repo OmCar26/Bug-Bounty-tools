@@ -33,8 +33,8 @@
     - [XSS Injection](#XSS-Injection)
     - [XXE Injection](#XXE-Injection)
 
-- [Miscellaneous](#Miscellaneous)
-    - [Passwords](#Passwords)
+- 
+    - [Password Bruteforce](#Password Bruteforce)
     - [Secrets](#Secrets)
     - [Git](#Git)
     - [Buckets](#Buckets)
@@ -42,7 +42,7 @@
     - [JSON Web Token](#JSON-Web-Token)
     - [postMessage](#postMessage)
     - [Subdomain Takeover](#Subdomain-Takeover)
-    - [Uncategorized](#Uncategorized)
+    
 
 ---
 
@@ -228,13 +228,6 @@ Lorem ipsum dolor sit amet
 - [gen.py](https://gist.github.com/zPrototype/b211ae91e2b082420c350c28b6674170) - Open url redirect payload generator
 - [OpenRedireX](https://github.com/devanshbatham/OpenRedireX) - A Fuzzer for OpenRedirect issues
 
-### Race Condition
-
-- [razzer](https://github.com/compsec-snu/razzer) - A Kernel fuzzer focusing on race bugs
-- [racepwn](https://github.com/racepwn/racepwn) - Race Condition framework
-- [requests-racer](https://github.com/nccgroup/requests-racer) - Small Python library that makes it easy to exploit race conditions in web apps with Requests.
-- [turbo-intruder](https://github.com/PortSwigger/turbo-intruder) - Turbo Intruder is a Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.
-- [race-the-web](https://github.com/TheHackerDev/race-the-web) - Tests for race conditions in web applications. Includes a RESTful API to integrate into a continuous integration pipeline.
 
 ### Request Smuggling
 
@@ -339,11 +332,7 @@ Lorem ipsum dolor sit amet
 
 ---
 
-## Miscellaneous
-
-Lorem ipsum dolor sit amet
-
-### Passwords
+### Password Bruteforce
 
 - [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - Hydra is a parallelized login cracker which supports numerous protocols to attack.
 - [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) - One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password
@@ -447,43 +436,7 @@ Lorem ipsum dolor sit amet
 - [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
 - [nikto](https://github.com/sullo/nikto) - Nikto web server scanner 
-- [arachni](https://github.com/Arachni/arachni) - Web Application Security Scanner Framework
-- [jaeles](https://github.com/jaeles-project/jaeles) - The Swiss Army knife for automated Web Application Testing
-- [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
-- [Osmedeus](https://github.com/j3ssie/Osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
-- [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
-- [flan](https://github.com/cloudflare/flan) - A pretty sweet vulnerability scanner
-- [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
-- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website. 
-- [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
-- [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
-- [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
 
-### Uncategorized
-
-- [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
-- [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
-- []() - 
-- [bountyplz](https://github.com/fransr/bountyplz) - Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported)
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
-- [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
-- [android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources
-- [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - An effort to build a single place for all useful android and iOS security related stuff.
-- [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
-- [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
-- [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 
 ---
 
-## Contribute
-
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
----
-
-## License
-
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
-
-To the extent possible under law, vavkamil has waived all copyright and
-related or neighboring rights to this work.
