@@ -438,6 +438,6 @@
 - [nikto](https://github.com/sullo/nikto) - Nikto web server scanner 
 Subzy for automated Subdomain takeover checker
 Garud for Sub domain takeover
-
+https://hakin9.org/garud-an-automation-tool/
 ---
 
